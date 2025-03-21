@@ -1,0 +1,16 @@
+{
+  "name": "trial-and-error",
+  "version": "1.0.0",
+  "description": "Try and Replicate Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Copy",
+    "Replicate",
+    "Trail"
+  ],
+  "author": "Obiora Jeremie Okwara",
+  "license": "ISC"
+}
