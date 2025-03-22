@@ -19,12 +19,20 @@ html{
     --FS: 1.5rem;
     --FC: #fff;
     --FC-LINK-ACTIVE: var(--BG-COLOR);
-    --FC-HOVER: 
+    --FC-HOVER: #6d6d6d;
 
     --PADDING-BOX: 0.5rem;
     --PADDING-BD: 1.2rem;
     
     --BG-COLOR: rgb(51, 49, 200);
-    --BG-IMAGE: url("../");
+    --BG-IMAGE: url("/assets/img/freepik__the-style-is-candid-image-photography-with-natural__92228.png");
+    
 
+}
+
+/* || GENERAL STYLES*/
+
+body{
+    background-color: var(--BG-COLOR);
+    background-image: var(--BG-IMAGE);
 }
