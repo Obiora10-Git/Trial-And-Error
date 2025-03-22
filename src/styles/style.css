@@ -32,7 +32,8 @@ html{
 
 /* || GENERAL STYLES*/
 
-body{
+body {
     background-color: var(--BG-COLOR);
     background-image: var(--BG-IMAGE);
+    font-family: var(--FF);
 }
