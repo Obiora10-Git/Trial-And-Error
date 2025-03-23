@@ -211,4 +211,142 @@ body {
 
 
     
+@media only screen and (max-width: 800px) {
 
+
+    body {
+    
+   
+        font-family: var(--FF);
+        font-size: 1.5rem;
+        color: var(--FC);
+        display: grid;
+        grid-column: repeat(1);
+        align-items: start;
+        justify-content: space-around;
+        
+        
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+        
+        
+        
+    }
+    
+    
+.container__heading{
+    background-color: var(--BG-COLOR);
+    background-image: var(--BG-IMAGE);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: text;
+    background-position: center center;
+    color: transparent;
+    text-shadow: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+label .info {
+    display: block;
+    
+    margin: 22px  0 11px 22%;
+    
+}
+
+input[type= text]{
+    padding: 18px;
+    border-radius: 25px;
+    min-width: 400px;
+    max-width: 23vw;
+    border-color: #e8e2e23e;
+    background-color:rgb(26, 25, 73);
+    color:#f3efefe2;
+    margin-top: 8px;
+    font-size: var(--FS);
+    text-transform: capitalize;
+    
+    
+    
+    
+}
+
+span{
+    white-space: nowrap;
+    margin-bottom: 1.5rem;
+    display: inline;
+    
+
+}
+
+.container__form__fieldset-one{
+    display: grid;
+    grid-row: auto;
+    gap: 33px;
+    justify-items: center;
+    align-items: center;
+    border: none;
+    white-space: nowrap;
+}
+
+.container__form__fieldset-two{
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    
+}
+
+.container__form__fieldset-three{
+    line-height: 1;
+    margin-top: 1.7rem;
+    padding: 7px;
+    border: none;
+}
+
+
+.remember, .forgot{
+    margin: 22px auto;
+}
+input[type= checkbox]{
+    width: 1.8rem;
+    color: rgba(6, 2, 135, 0.955);
+    height: 1rem;
+    vertical-align: middle;
+}
+
+
+button{
+    display: block;
+    margin: 12px auto;
+    max-width: 300px;
+    min-width: 50%;
+    padding: 12px;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    background-color: #ede9e91e;
+}
+
+.container {
+    background-color: #ede9e97d;
+    padding: 22px;
+    
+    max-width: 40vw;
+    min-width: 800px;
+    height: auto;
+    margin: 20vh auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 5px #ede9e97d;
+    
+
+}
+    
+
+.container__form{
+    margin: 10px;
+}
+  }
