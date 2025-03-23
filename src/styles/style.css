@@ -23,7 +23,7 @@ html{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   height: 100vh;
+   
    background-position: center center;
     
 }
@@ -182,7 +182,7 @@ body {
     max-width: 100%;
     width: 100vw;
     height: 100vh;
-    object-fit: contain;
+    
     
     
 }
@@ -208,4 +208,7 @@ body {
 .container__form{
     margin: 10px;
 }
+
+
+    
 
