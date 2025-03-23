@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Replicated and Reversed Engineered Codes">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
     <title>Obi's Replicate</title>
     
 </head>
 <body>
-    <h1 class="heading">Login</h1>
-    <form action="" method="post">
-        <label for="username"><input type="text" name="User-Name" id="username" placeholder="username"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+    <div class="container">
+     <h1 class="container__heading">Login</h1>
+     <form action="" method="post" class="container__form">
+        <fieldset class="container__form__fieldset-one"><label for="username" class="info"><span><input type="text" name="User-Name" id="username" placeholder="username"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg></label>
-      <label for="password"> <input type="text" name="Password" id="password" placeholder="password"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+          </svg></span></label>
+      <label for="password" class="info"> <span> <input type="text" name="Password" id="password" placeholder="password"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
         <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
-      </svg> </label>
-       <label for="save-info"> <input type="checkbox" name="save" id="save-info"> Remember Me</label>
-        <p><a href="">Forgot Password</a></p>
+      </svg> </span></label>
+      </fieldset>
+      <fieldset class="container__form__fieldset-two">
+      <label for="save-info" class="remember"> <input type="checkbox" name="save" id="save-info">Remember Me</label>
+        <p class="forgot"><a href="">Forgot Password</a></p>
+      </fieldset>
+      
         <button>Login</button>
-        <p><span>Don't have an account?</span><a href="">Register</a></p>
+        <fieldset class="container__form__fieldset-three">
+        <p><span>Don't have an account?</span></p><br><p><a href="">Register</a></p>
+    </fieldset>
     </form>
-    
+  </div>
 </body>
 
   

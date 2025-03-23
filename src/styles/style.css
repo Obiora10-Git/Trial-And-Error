@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 /* || RESET */
 
 * {
@@ -10,30 +11,195 @@
 
 html{
     scroll-behavior: smooth;
+   width: var(--BD-WIDTH);
+   margin: 0;
+   height: 100vh;
+   
+   background-color: var(--BG-COLOR);
+   background-image: var(--BG-IMAGE);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+   background-position: center center;
+    
 }
 
 /* || VARIABLES */
 
 :root{
     --FF: "Roboto", sans-serif;
-    --FS: 1.5rem;
-    --FC: #fff;
+    --FS: 1.1rem;
+    --FC: rgba(6, 2, 135, 0.955);
     --FC-LINK-ACTIVE: var(--BG-COLOR);
     --FC-HOVER: #6d6d6d;
 
     --PADDING-BOX: 0.5rem;
     --PADDING-BD: 1.2rem;
     
-    --BG-COLOR: rgb(51, 49, 200);
+    --BG-COLOR: rgb(4, 2, 81);
     --BG-IMAGE: url("/assets/img/freepik__the-style-is-candid-image-photography-with-natural__92228.png");
+    
+    --MARGIN: 45%;
+    --BD-WIDTH: 100vw;
+    --WIDTH: min(40%, 500px);
+
+}
+
+.container__heading{
+    background-color: var(--BG-COLOR);
+    background-image: var(--BG-IMAGE);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: text;
+    background-position: center center;
+    color: transparent;
+    text-shadow: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+label .info {
+    display: block;
+    
+    margin: 20px  0 10px 20%;
+    
+}
+
+input[type= text]{
+    padding: 16px;
+    border-radius: 25px;
+    min-width: 350px;
+    max-width: 20vw;
+    border-color: #e8e2e23e;
+    background-color:rgb(26, 25, 73);
+    color:#f3efefe2;
+    margin-top: 5px;
+    font-size: var(--FS);
+    text-transform: capitalize;
+    
+    
+    
+    
+}
+
+span{
+    white-space: nowrap;
+    margin-bottom: 1.2rem;
+    display: inline;
     
 
 }
 
+.container__form__fieldset-one{
+    display: grid;
+    grid-row: auto;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    border: none;
+    white-space: nowrap;
+}
+
+.container__form__fieldset-two{
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    
+}
+
+.container__form__fieldset-three{
+    line-height: 0.8;
+    margin-top: 1.5rem;
+    padding: 5px;
+    border: none;
+}
+
+
+.remember, .forgot{
+    margin: 20px auto;
+}
+input[type= checkbox]{
+    width: 1.8rem;
+    color: rgba(6, 2, 135, 0.955);
+    height: 1rem;
+    vertical-align: middle;
+}
+
+
+button{
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    min-width: 50%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color: #ede9e91e;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+button:active{
+    background-color: white;
+}
+
+a{
+    color: purple;
+}
+a:hover, a:focus{
+     color: hwb(275 0% 50%);
+}
+
+a:active{
+    color: pink;
+    
+}
+
+
 /* || GENERAL STYLES*/
 
+
 body {
-    background-color: var(--BG-COLOR);
-    background-image: var(--BG-IMAGE);
+    
+   
     font-family: var(--FF);
+    font-size: var(--FS);
+    color: var(--FC);
+    display: grid;
+    grid-column: repeat(1);
+    align-items: start;
+    justify-content: space-around;
+    
+    
+    max-width: 100vw;
+    
+    
 }
+
+
+/* || BLOCK */
+
+.container {
+    background-color: #ede9e97d;
+    padding: 20px;
+    
+    max-width: 40vw;
+    min-width: 600px;
+    height: auto;
+    margin: 20vh auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 5px #ede9e97d;
+    
+
+}
+    
+
+.container__form{
+    margin: 10px;
+}
+
