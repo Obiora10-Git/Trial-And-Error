@@ -29,6 +29,37 @@ html{
     
 }
 
+@media screen and (max-width: 600px){
+    
+    input[type= text]{
+        padding: 18px;
+        max-width: 23vw;
+        font-size: 1.5rem;
+    
+    }
+
+    label .info {
+    
+    margin: 22px  0 11px 22%;
+    
+     }
+
+    button{
+    
+    margin: 11px auto;
+    max-width: 300px;
+    min-width: 50%;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    }
+
+     .container {
+    max-width: 45vw;
+    }
+
+} 
+
 /* || VARIABLES */
 
 :root{
